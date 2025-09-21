@@ -122,6 +122,7 @@ const pushPlusPusher = (title, desp) => {
   // 请求体
   const data = {
     token: pushPlus.token,
+    topic: pushPlus.topic,
     title: title,
     content: desp,
   };
